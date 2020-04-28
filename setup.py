@@ -13,7 +13,7 @@ setup(
 
     version_format='{tag}',
     setup_requires=['setuptools-git-version'],
-
+    install_requires=['Gooey'],
     packages = ['hotbits'],
 
     entry_points = {
