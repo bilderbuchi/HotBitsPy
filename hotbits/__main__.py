@@ -9,6 +9,9 @@ import sys
 
 from . import RandomDataGenerator
 
+from gooey import Gooey
+
+@Gooey
 def main():
     """Handle command line program."""
 
